@@ -14,6 +14,11 @@ Across all three coins I found **12 depeg events between January 2021 and Septem
 
 ![Every move outside the gray band is a depeg](images/all_coins.png)
 
+## My hypothesis, and how it held up
+**Hypothesis:** USDC would hold its peg best and DAI would suffer the worst fall, because USDC is far more widely used and DAI has fewer buyers to step in when it slips.
+
+**Result: half right.** USDC was the steadiest day to day, but it had the worst fall, not DAI. Wide use keeps a stablecoin steady in normal times, but it can't protect it when people doubt the reserves behind it. DAI's worst moment came on the same day for the same reason, because much of DAI was backed by USDC.
+
 ## My rule for a depeg
 A day counts as a depeg if the **daily low falls below $0.99 or the daily high rises above $1.01**. I use the low and high, not the close, because depegs often recover within hours and the close can hide them.
 
